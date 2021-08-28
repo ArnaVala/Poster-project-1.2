@@ -2,7 +2,7 @@
 
 ## Responsive Poster
 
-[Live site](https:// /)
+[Live site](https://av-poster.netlify.app)
 
 ## Description
 
