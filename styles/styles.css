@@ -176,7 +176,7 @@ p {
   }
 }
 
-/* BLINKING ANIMATION */
+/* BLOCK ANIMATION */
 
 @keyframes hammer {
   0% {
@@ -207,6 +207,48 @@ p {
 }
 
 @keyframes hammer-blue {
+  0% {
+    top: 25%;
+  }
+ 
+  50% {
+    top: 0%;
+  }
+
+  100% {
+    top: 25%;
+  }
+}
+
+@-webkit-keyframes hammer {
+  0% {
+    top: 0%;
+  }
+ 
+  50% {
+    top: 25%;
+  }
+
+  100% {
+    top: 0%;
+  }
+}
+
+@-webkit-keyframes hammer-red {
+  0% {
+    top: 12.5%;
+  }
+ 
+  50% {
+    top: 25%;
+  }
+
+  100% {
+    top: 12.5%;
+  }
+}
+
+@-webkit-keyframes hammer-blue {
   0% {
     top: 25%;
   }
